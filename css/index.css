@@ -1,0 +1,121 @@
+body{
+	background-color: #2A2A2A; /*Medium Grijs */
+	color: whitesmoke; /*Gebroken Wit */
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+#searchContainer{
+	background-color: #212121; /*Zwart/Donker Grijs */
+	background-image: url("../img/space.png");
+}
+
+#searchSection{
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+#navSection{
+	border-right: 1px solid #404040;
+}
+
+#contentSection, #navSection{
+	margin-top: 1.5em;
+}
+
+ul{
+	list-style-type: none;
+	padding:0; margin:0;
+}
+
+h2{
+	font-size: 1.50em;
+	color: #F7E74B; /*Geel */
+}
+
+h3{
+	font-size: 1.2em;
+}
+
+h4{
+	color: #404040;
+}
+
+#filmChecks, #geslachtChecks{
+	font-weight: 300;
+}
+
+#swSearch, .dataBox, .dataBoxGroter{
+	background-color: #404040;
+}
+
+#swSearch{
+	color: whitesmoke;
+	border-color: #F7E74B;
+	border-radius: 0;
+}
+
+#searchSection > form > div > div > button{
+	background-color: #F7E74B;
+		border-color: #F7E74B;
+	border-radius: 0;
+}
+
+.dataBox{
+	padding-bottom: 4em;
+	margin-bottom: 15px;
+}
+
+.dataBoxGroter{
+	padding-bottom: 4em;
+	margin-bottom: 2em;
+}
+
+
+.dataBoxTitle{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.dataBoxPlanet{
+	padding-left: 20px;
+}
+
+#dataBoxImage{
+	background-image: url("../img/social.png");
+	height: 200px; width: 200px;
+	background-position: center center;
+	background-size: cover;
+}
+
+.table{
+	margin-top: 2em;
+	background-color: #2A2A2A;
+}
+
+.table tbody tr td{
+	border: 0px;
+	padding-left: 20px;
+}
+
+
+footer{
+	padding: 2em;
+	text-align: center;
+	color: #404040;
+}
+
+#navSection ul input {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -3px;
+    overflow: hidden;
+}
+
+.dataBox:hover{
+	opacity: 0.8;
+}
